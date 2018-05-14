@@ -283,14 +283,104 @@
             get { return Resource.ErrorChangingPassword; }
         }
 
-        //public static string SearchByDating
-        //{
-        //    get { return Resource.SearchByDating; }
-        //}
+        public static string PleaseWait
+        {
+            get { return Resource.PleaseWait; }
+        }
 
-        //public static string SearchByKeyword
-        //{
-        //    get { return Resource.SearchByKeyword; }
-        //}
+        public static string Boards
+        {
+            get { return Resource.Boards; }
+        }
+
+        public static string Predictions
+        {
+            get { return Resource.Predictions; }
+        }
+
+        public static string Ranking
+        {
+            get { return Resource.Ranking; }
+        }
+
+        public static string Instructions
+        {
+            get { return Resource.Instructions; }
+        }
+
+        public static string MyHits
+        {
+            get { return Resource.MyHits; }
+        }
+
+        public static string Matches
+        {
+            get { return Resource.Matches; }
+        }
+
+        public static string NoUserLocalMessage
+        {
+            get { return Resource.NoUserLocalMessage; }
+        }
+
+        public static string Search
+        {
+            get { return Resource.Search; }
+        }
+
+        public static string BoardInstructions
+        {
+            get { return Resource.BoardInstructions; }
+        }
+
+        public static string YourCurrentBoards
+        {
+            get { return Resource.YourCurrentBoards; }
+        }
+
+        public static string NoVerified
+        {
+            get { return Resource.NoVerified; }
+        }
+
+        public static string AddBoard
+        {
+            get { return Resource.AddBoard; }
+        }
+
+        public static string AddBoardInstructions
+        {
+            get { return Resource.AddBoardInstructions; }
+        }
+
+        public static string NoDepositImageMessage
+        {
+            get { return Resource.NoDepositImageMessage; }
+        }
+
+        public static string DepositConfirmationMessage
+        {
+            get { return Resource.DepositConfirmationMessage; }
+        }
+
+        public static string ContactAdmin
+        {
+            get { return Resource.ContactAdmin; }
+        }
+
+        public static string Board
+        {
+            get { return Resource.Board; }
+        }
+
+        public static string SelectBoard
+        {
+            get { return Resource.SelectBoard; }
+        }
+
+        public static string PredictionInstructions
+        {
+            get { return Resource.PredictionInstructions; }
+        }
     }
 }

@@ -267,4 +267,67 @@
   <data name="UserRegisteredMessage" xml:space="preserve">
     <value>Usuário registrado, você pode inserir com este e-mail e senha atribuída.</value>
   </data>
+  <data name="AddBoard" xml:space="preserve">
+    <value>Adicionar Álbum</value>
+  </data>
+  <data name="AddBoardInstructions" xml:space="preserve">
+    <value>Você deve comprar pelo menos um cartão para participar.</value>
+  </data>
+  <data name="Board" xml:space="preserve">
+    <value>Quadro</value>
+  </data>
+  <data name="BoardInstructions" xml:space="preserve">
+    <value>Para participar, você deve adquirir cartas</value>
+  </data>
+  <data name="Boards" xml:space="preserve">
+    <value>Placas</value>
+  </data>
+  <data name="ContactAdmin" xml:space="preserve">
+    <value>Se tiver alguma pergunta, ligue para mim pelo telefone abaixo.</value>
+  </data>
+  <data name="DepositConfirmationMessage" xml:space="preserve">
+    <value>A imagem de seu papelão foi recebida. Quando o administrador o verifica no prazo de 24 horas, ele permitirá que seu cartão entre nas previsões.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instruções</value>
+  </data>
+  <data name="Matches" xml:space="preserve">
+    <value>Correspondências</value>
+  </data>
+  <data name="MyHits" xml:space="preserve">
+    <value>Hits!</value>
+  </data>
+  <data name="NoDepositImageMessage" xml:space="preserve">
+    <value>Tem de seleccionar uma imagem para {0}.</value>
+  </data>
+  <data name="NoUserLocalMessage" xml:space="preserve">
+    <value>Esta opção só está disponível para os usuários locais.</value>
+  </data>
+  <data name="NoVerified" xml:space="preserve">
+    <value>Não verificado!</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Aguarde...</value>
+  </data>
+  <data name="PredictionInstructions" xml:space="preserve">
+    <value>Desvios positivos a favor do sindicato devem ser fundamentados e estes devem ser aprovados pelo GRC.</value>
+  </data>
+  <data name="Predictions" xml:space="preserve">
+    <value>Previsões do futuro</value>
+  </data>
+  <data name="Ranking" xml:space="preserve">
+    <value>Classificação</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="SelectBoard" xml:space="preserve">
+    <value>Selecione um quadro...</value>
+  </data>
+  <data name="Verified" xml:space="preserve">
+    <value>Verificado</value>
+  </data>
+  <data name="YourCurrentBoards" xml:space="preserve">
+    <value>Suas placas atuais:</value>
+  </data>
 </root>

@@ -267,4 +267,67 @@
   <data name="UserRegisteredMessage" xml:space="preserve">
     <value>Usuario registrado, ya puedes ingresar con este email y clave asignada.</value>
   </data>
+  <data name="AddBoard" xml:space="preserve">
+    <value>Añadir cartón</value>
+  </data>
+  <data name="AddBoardInstructions" xml:space="preserve">
+    <value>Debes adquirir al menos un cartón para poder participar.</value>
+  </data>
+  <data name="Board" xml:space="preserve">
+    <value>Cartón</value>
+  </data>
+  <data name="BoardInstructions" xml:space="preserve">
+    <value>Para participar debe adquirir cartones</value>
+  </data>
+  <data name="Boards" xml:space="preserve">
+    <value>Cartones</value>
+  </data>
+  <data name="ContactAdmin" xml:space="preserve">
+    <value>Si tiene alguna pregunta, puede escribir a: jzuluaga55@gmail.com ó llamar al número: +57 350 634 2747.</value>
+  </data>
+  <data name="DepositConfirmationMessage" xml:space="preserve">
+    <value>La imagen de su cartón fue recibida. Cuando el administrador lo verifique en un lapso de 24 horas, habilitará su cartón para que ingrese las predicciones.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instrucciones</value>
+  </data>
+  <data name="Matches" xml:space="preserve">
+    <value>Partidos</value>
+  </data>
+  <data name="MyHits" xml:space="preserve">
+    <value>Mis aciertos</value>
+  </data>
+  <data name="NoDepositImageMessage" xml:space="preserve">
+    <value>Debe agregar una imagen de el depósito.</value>
+  </data>
+  <data name="NoUserLocalMessage" xml:space="preserve">
+    <value>Opción solo disponible para usuarios creados localmente.</value>
+  </data>
+  <data name="NoVerified" xml:space="preserve">
+    <value>No verificado</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Por favor espera...</value>
+  </data>
+  <data name="PredictionInstructions" xml:space="preserve">
+    <value>Debes haber adquirido cartones y estos deben estar habilitados por el administrador.</value>
+  </data>
+  <data name="Predictions" xml:space="preserve">
+    <value>Predicciones</value>
+  </data>
+  <data name="Ranking" xml:space="preserve">
+    <value>Clasificación</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="SelectBoard" xml:space="preserve">
+    <value>Seleccione un cartón...</value>
+  </data>
+  <data name="Verified" xml:space="preserve">
+    <value>Verificado</value>
+  </data>
+  <data name="YourCurrentBoards" xml:space="preserve">
+    <value>Sus cartones actuales:</value>
+  </data>
 </root>

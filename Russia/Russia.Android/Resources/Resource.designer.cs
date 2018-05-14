@@ -28,6 +28,7 @@ namespace Russia.Droid
 		{
 			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::Russia.Droid.Resource.String.ApplicationName;
 			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::Russia.Droid.Resource.String.Hello;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.String.library_name = global::Russia.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Russia.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -2194,26 +2195,26 @@ namespace Russia.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02011a
-			public const int avd_hide_password_1 = 2130837786;
-			
 			// aapt resource value: 0x7f02011b
-			public const int avd_hide_password_2 = 2130837787;
+			public const int avd_hide_password_1 = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int avd_hide_password_3 = 2130837788;
+			public const int avd_hide_password_2 = 2130837788;
+			
+			// aapt resource value: 0x7f02011d
+			public const int avd_hide_password_3 = 2130837789;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02011d
-			public const int avd_show_password_1 = 2130837789;
-			
 			// aapt resource value: 0x7f02011e
-			public const int avd_show_password_2 = 2130837790;
+			public const int avd_show_password_1 = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int avd_show_password_3 = 2130837791;
+			public const int avd_show_password_2 = 2130837791;
+			
+			// aapt resource value: 0x7f020120
+			public const int avd_show_password_3 = 2130837792;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2788,11 +2789,11 @@ namespace Russia.Droid
 			// aapt resource value: 0x7f020113
 			public const int notification_icon_background = 2130837779;
 			
-			// aapt resource value: 0x7f020118
-			public const int notification_template_icon_bg = 2130837784;
-			
 			// aapt resource value: 0x7f020119
-			public const int notification_template_icon_low_bg = 2130837785;
+			public const int notification_template_icon_bg = 2130837785;
+			
+			// aapt resource value: 0x7f02011a
+			public const int notification_template_icon_low_bg = 2130837786;
 			
 			// aapt resource value: 0x7f020114
 			public const int notification_tile_bg = 2130837780;
@@ -2804,7 +2805,10 @@ namespace Russia.Droid
 			public const int Onu = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int twitter_logo = 2130837783;
+			public const int Russia2018 = 2130837783;
+			
+			// aapt resource value: 0x7f020118
+			public const int twitter_logo = 2130837784;
 			
 			static Drawable()
 			{
@@ -3663,11 +3667,11 @@ namespace Russia.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f09003f
-			public const int ApplicationName = 2131296319;
+			// aapt resource value: 0x7f090040
+			public const int ApplicationName = 2131296320;
 			
-			// aapt resource value: 0x7f09003e
-			public const int Hello = 2131296318;
+			// aapt resource value: 0x7f09003f
+			public const int Hello = 2131296319;
 			
 			// aapt resource value: 0x7f090015
 			public const int abc_action_bar_home_description = 2131296277;
@@ -3770,6 +3774,9 @@ namespace Russia.Droid
 			
 			// aapt resource value: 0x7f090038
 			public const int character_counter_pattern = 2131296312;
+			
+			// aapt resource value: 0x7f09003e
+			public const int library_name = 2131296318;
 			
 			// aapt resource value: 0x7f090000
 			public const int mr_button_content_description = 2131296256;

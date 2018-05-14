@@ -70,6 +70,51 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add board.
+        /// </summary>
+        public static string AddBoard {
+            get {
+                return ResourceManager.GetString("AddBoard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must adquire at least one card to participate..
+        /// </summary>
+        public static string AddBoardInstructions {
+            get {
+                return ResourceManager.GetString("AddBoardInstructions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Board.
+        /// </summary>
+        public static string Board {
+            get {
+                return ResourceManager.GetString("Board", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to To participate you must acquire cards.
+        /// </summary>
+        public static string BoardInstructions {
+            get {
+                return ResourceManager.GetString("BoardInstructions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Boards.
+        /// </summary>
+        public static string Boards {
+            get {
+                return ResourceManager.GetString("Boards", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cancel.
         /// </summary>
         public static string Cancel {
@@ -160,6 +205,15 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to If you have any questions, you can write to: jzuluaga55@gmail.com or call the number +57 350 634 2747..
+        /// </summary>
+        public static string ContactAdmin {
+            get {
+                return ResourceManager.GetString("ContactAdmin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Current Password.
         /// </summary>
         public static string CurrentPassword {
@@ -174,6 +228,15 @@ namespace Russia.Resources {
         public static string CurrentPasswordPlaceHolder {
             get {
                 return ResourceManager.GetString("CurrentPasswordPlaceHolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The image of his cardboard was received. When the administrator verifies it within 24 hours, he will enable his cardboard to enter the predictions..
+        /// </summary>
+        public static string DepositConfirmationMessage {
+            get {
+                return ResourceManager.GetString("DepositConfirmationMessage", resourceCulture);
             }
         }
         
@@ -295,6 +358,15 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Instructions.
+        /// </summary>
+        public static string Instructions {
+            get {
+                return ResourceManager.GetString("Instructions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Last Name.
         /// </summary>
         public static string LastNameLabel {
@@ -340,11 +412,29 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Matches.
+        /// </summary>
+        public static string Matches {
+            get {
+                return ResourceManager.GetString("Matches", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Menu.
         /// </summary>
         public static string Menu {
             get {
                 return ResourceManager.GetString("Menu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to My hits.
+        /// </summary>
+        public static string MyHits {
+            get {
+                return ResourceManager.GetString("MyHits", resourceCulture);
             }
         }
         
@@ -372,6 +462,33 @@ namespace Russia.Resources {
         public static string NewPasswordPlaceHolder {
             get {
                 return ResourceManager.GetString("NewPasswordPlaceHolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must add an image for the deposit..
+        /// </summary>
+        public static string NoDepositImageMessage {
+            get {
+                return ResourceManager.GetString("NoDepositImageMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This option is only available for local users..
+        /// </summary>
+        public static string NoUserLocalMessage {
+            get {
+                return ResourceManager.GetString("NoUserLocalMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No verified.
+        /// </summary>
+        public static string NoVerified {
+            get {
+                return ResourceManager.GetString("NoVerified", resourceCulture);
             }
         }
         
@@ -448,6 +565,42 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please Wait....
+        /// </summary>
+        public static string PleaseWait {
+            get {
+                return ResourceManager.GetString("PleaseWait", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must have purchased boards and these must be enabled by the administrator..
+        /// </summary>
+        public static string PredictionInstructions {
+            get {
+                return ResourceManager.GetString("PredictionInstructions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Predictions.
+        /// </summary>
+        public static string Predictions {
+            get {
+                return ResourceManager.GetString("Predictions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ranking.
+        /// </summary>
+        public static string Ranking {
+            get {
+                return ResourceManager.GetString("Ranking", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Register.
         /// </summary>
         public static string Register {
@@ -484,6 +637,24 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Search.
+        /// </summary>
+        public static string Search {
+            get {
+                return ResourceManager.GetString("Search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select a board....
+        /// </summary>
+        public static string SelectBoard {
+            get {
+                return ResourceManager.GetString("SelectBoard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Something was wrong, please try later..
         /// </summary>
         public static string SomethingWrong {
@@ -507,6 +678,24 @@ namespace Russia.Resources {
         public static string UserRegisteredMessage {
             get {
                 return ResourceManager.GetString("UserRegisteredMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verified.
+        /// </summary>
+        public static string Verified {
+            get {
+                return ResourceManager.GetString("Verified", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your current boards:.
+        /// </summary>
+        public static string YourCurrentBoards {
+            get {
+                return ResourceManager.GetString("YourCurrentBoards", resourceCulture);
             }
         }
     }
