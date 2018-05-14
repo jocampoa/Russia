@@ -8,7 +8,7 @@
     public class MainViewModel : BaseViewModel
     {
         #region Attibrutes
-        private User user;
+        private UserLocal user;
         #endregion
 
         #region Properties
@@ -24,7 +24,7 @@
             set;
         }
 
-        public User User
+        public UserLocal User
         {
             get { return this.user; }
             set { SetValue(ref this.user, value); }
@@ -37,6 +37,12 @@
             get;
             set;
         }
+
+        public MatchesViewModel Matches
+        {
+            get;
+            set;
+        }
         #endregion
 
         #region Constructors
@@ -44,6 +50,7 @@
         {
             instance = this;
             this.Login = new LoginViewModel();
+            this.LoadMenu();
         }
         #endregion
 
@@ -58,6 +65,34 @@
             }
 
             return instance;
+        }
+        #endregion
+
+        #region Methods
+        private void LoadMenu()
+        {
+            this.Menus = new ObservableCollection<MenuItemViewModel>();
+
+            this.Menus.Add(new MenuItemViewModel
+            {
+                Icon = "ic_settings",
+                PageName = "MyProfilePage",
+                Title = Languages.MyProfile,
+            });
+
+            this.Menus.Add(new MenuItemViewModel
+            {
+                Icon = "ic_insert_chart",
+                PageName = "StaticsPage",
+                Title = Languages.MyProfile,
+            });
+
+            this.Menus.Add(new MenuItemViewModel
+            {
+                Icon = "ic_exit_to_app",
+                PageName = "LoginPage",
+                Title = Languages.LogOut,
+            });
         }
         #endregion
     }
