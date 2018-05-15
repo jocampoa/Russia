@@ -382,5 +382,70 @@
         {
             get { return Resource.PredictionInstructions; }
         }
+
+        public static string CupProgramming
+        {
+            get { return Resource.CupProgramming; }
+        }
+
+        public static string PendingMatches
+        {
+            get { return Resource.PendingMatches; }
+        }
+
+        public static string PastMatches
+        {
+            get { return Resource.PastMatches; }
+        }
+
+        public static string SavePredictions
+        {
+            get { return Resource.SavePredictions; }
+        }
+
+        public static string SelectBoardValidation
+        {
+            get { return Resource.SelectBoardValidation; }
+        }
+
+        public static string EditPrediction
+        {
+            get { return Resource.EditPrediction; }
+        }
+
+        public static string LocalGoalsValidation
+        {
+            get { return Resource.LocalGoalsValidation; }
+        }
+
+        public static string VisitorGoalsValidation
+        {
+            get { return Resource.VisitorGoalsValidation; }
+        }
+
+        public static string ErrorSavingPredictionMessage
+        {
+            get { return Resource.ErrorSavingPredictionMessage; }
+        }
+
+        public static string User
+        {
+            get { return Resource.User; }
+        }
+
+        public static string Image
+        {
+            get { return Resource.Image; }
+        }
+
+        public static string Points
+        {
+            get { return Resource.Points; }
+        }
+
+        public static string MyPrediction
+        {
+            get { return Resource.MyPrediction; }
+        }
     }
 }

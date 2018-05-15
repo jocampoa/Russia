@@ -20,6 +20,7 @@
 
         #region Attributes
         private ObservableCollection<Match> matches;
+        private ObservableCollection<Match> pastMatches;
         private List<Match> myMatches;
         private string filter;
         #endregion
@@ -35,6 +36,12 @@
         {
             get { return this.matches; }
             set { this.SetValue(ref this.matches, value); }
+        }
+
+        public ObservableCollection<Match> PastMatches
+        {
+            get { return this.pastMatches; }
+            set { this.SetValue(ref this.pastMatches, value); }
         }
 
         public string Filter
@@ -96,7 +103,8 @@
                 match.DateTime = match.DateTime.ToLocalTime();
             }
 
-            this.Matches = new ObservableCollection<Match>(this.myMatches);
+            this.Matches = new ObservableCollection<Match>(this.myMatches.Where(m => m.StatusMatchId == 1));
+            this.PastMatches = new ObservableCollection<Match>(this.myMatches.Where(m => m.StatusMatchId != 1));
             this.IsRefreshing = false;
         }
         #endregion
@@ -122,12 +130,19 @@
         {
             if (string.IsNullOrEmpty(this.Filter))
             {
-                this.Matches = new ObservableCollection<Match>(this.myMatches);
+                this.Matches = new ObservableCollection<Match>(this.myMatches.Where(m => m.StatusMatchId == 1));
+                this.PastMatches = new ObservableCollection<Match>(this.myMatches.Where(m => m.StatusMatchId != 1));
             }
             else
             {
-                this.Matches = new ObservableCollection<Match>(this.myMatches.Where(m => m.Local.Name.ToLower().Contains(this.Filter.ToLower()) || 
-                                                                                    m.Visitor.Name.ToLower().Contains(this.Filter.ToLower())));
+                this.Matches = new ObservableCollection<Match>(
+                    this.myMatches.Where(m => (m.Local.Name.ToLower().Contains(this.Filter.ToLower()) || 
+                                         m.Visitor.Name.ToLower().Contains(this.Filter.ToLower())) &&
+                                         m.StatusMatchId == 1));
+                this.PastMatches = new ObservableCollection<Match>(
+                    this.myMatches.Where(m => (m.Local.Name.ToLower().Contains(this.Filter.ToLower()) ||
+                                         m.Visitor.Name.ToLower().Contains(this.Filter.ToLower())) &&
+                                         m.StatusMatchId != 1));
             }
         }
         #endregion

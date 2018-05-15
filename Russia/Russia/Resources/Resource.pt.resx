@@ -330,4 +330,43 @@
   <data name="YourCurrentBoards" xml:space="preserve">
     <value>Suas placas atuais:</value>
   </data>
+  <data name="CupProgramming" xml:space="preserve">
+    <value>Programação</value>
+  </data>
+  <data name="EditPrediction" xml:space="preserve">
+    <value>previsão</value>
+  </data>
+  <data name="ErrorSavingPredictionMessage" xml:space="preserve">
+    <value>Erro. Tente novamente.</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="LocalGoalsValidation" xml:space="preserve">
+    <value>Você deve inserir metas locais</value>
+  </data>
+  <data name="MyPrediction" xml:space="preserve">
+    <value>previsão</value>
+  </data>
+  <data name="PastMatches" xml:space="preserve">
+    <value>Últimas Partidas</value>
+  </data>
+  <data name="PendingMatches" xml:space="preserve">
+    <value>Partidas pendentes!</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Pontos</value>
+  </data>
+  <data name="SavePredictions" xml:space="preserve">
+    <value>previsão</value>
+  </data>
+  <data name="SelectBoardValidation" xml:space="preserve">
+    <value>Você deve selecionar uma placa.</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="VisitorGoalsValidation" xml:space="preserve">
+    <value>Você deve inserir metas do visitante</value>
+  </data>
 </root>

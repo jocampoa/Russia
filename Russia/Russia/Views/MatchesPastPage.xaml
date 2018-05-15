@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:i18n="clr-namespace:Russia.Helpers"
-             x:Class="Russia.Views.MatchesPage"
+             x:Class="Russia.Views.MatchesPastPage"
              BackgroundColor="Silver"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
-             Title="{i18n:Translate PendingMatches}">
+             Title="{i18n:Translate PastMatches}">
     <ContentPage.Content>
         <StackLayout
             BindingContext="{Binding Matches}"
@@ -21,7 +21,7 @@
                 HasUnevenRows="true" 
                 IsPullToRefreshEnabled="true"
                 IsRefreshing="{Binding IsRefreshing, Mode=TwoWay}"
-                ItemsSource="{Binding Matches}"
+                ItemsSource="{Binding PastMatches}"
                 SeparatorVisibility="Default"
                 SeparatorColor="Navy"
                 RefreshCommand="{Binding RefreshCommand}">

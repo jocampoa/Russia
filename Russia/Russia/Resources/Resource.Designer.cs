@@ -214,6 +214,15 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cup Programming.
+        /// </summary>
+        public static string CupProgramming {
+            get {
+                return ResourceManager.GetString("CupProgramming", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Current Password.
         /// </summary>
         public static string CurrentPassword {
@@ -237,6 +246,15 @@ namespace Russia.Resources {
         public static string DepositConfirmationMessage {
             get {
                 return ResourceManager.GetString("DepositConfirmationMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit prediction.
+        /// </summary>
+        public static string EditPrediction {
+            get {
+                return ResourceManager.GetString("EditPrediction", resourceCulture);
             }
         }
         
@@ -295,6 +313,15 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to An error has occurred, please try again..
+        /// </summary>
+        public static string ErrorSavingPredictionMessage {
+            get {
+                return ResourceManager.GetString("ErrorSavingPredictionMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to First Name.
         /// </summary>
         public static string FirstNameLabel {
@@ -349,6 +376,15 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Image.
+        /// </summary>
+        public static string Image {
+            get {
+                return ResourceManager.GetString("Image", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Email or password incorrect..
         /// </summary>
         public static string Incorrect {
@@ -394,6 +430,15 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You must enter local goals.
+        /// </summary>
+        public static string LocalGoalsValidation {
+            get {
+                return ResourceManager.GetString("LocalGoalsValidation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Login.
         /// </summary>
         public static string Login {
@@ -435,6 +480,15 @@ namespace Russia.Resources {
         public static string MyHits {
             get {
                 return ResourceManager.GetString("MyHits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to My prediction.
+        /// </summary>
+        public static string MyPrediction {
+            get {
+                return ResourceManager.GetString("MyPrediction", resourceCulture);
             }
         }
         
@@ -538,6 +592,24 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Past Matches.
+        /// </summary>
+        public static string PastMatches {
+            get {
+                return ResourceManager.GetString("PastMatches", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pending Matches.
+        /// </summary>
+        public static string PendingMatches {
+            get {
+                return ResourceManager.GetString("PendingMatches", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Phone.
         /// </summary>
         public static string PhoneLabel {
@@ -570,6 +642,15 @@ namespace Russia.Resources {
         public static string PleaseWait {
             get {
                 return ResourceManager.GetString("PleaseWait", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Points.
+        /// </summary>
+        public static string Points {
+            get {
+                return ResourceManager.GetString("Points", resourceCulture);
             }
         }
         
@@ -637,6 +718,15 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save prediction.
+        /// </summary>
+        public static string SavePredictions {
+            get {
+                return ResourceManager.GetString("SavePredictions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search.
         /// </summary>
         public static string Search {
@@ -651,6 +741,15 @@ namespace Russia.Resources {
         public static string SelectBoard {
             get {
                 return ResourceManager.GetString("SelectBoard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must select a board..
+        /// </summary>
+        public static string SelectBoardValidation {
+            get {
+                return ResourceManager.GetString("SelectBoardValidation", resourceCulture);
             }
         }
         
@@ -673,6 +772,15 @@ namespace Russia.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to User.
+        /// </summary>
+        public static string User {
+            get {
+                return ResourceManager.GetString("User", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The user was create, now you can login with this email and password..
         /// </summary>
         public static string UserRegisteredMessage {
@@ -687,6 +795,15 @@ namespace Russia.Resources {
         public static string Verified {
             get {
                 return ResourceManager.GetString("Verified", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must enter visitor goals.
+        /// </summary>
+        public static string VisitorGoalsValidation {
+            get {
+                return ResourceManager.GetString("VisitorGoalsValidation", resourceCulture);
             }
         }
         

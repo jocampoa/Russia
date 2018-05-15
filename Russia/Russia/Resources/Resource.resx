@@ -330,4 +330,43 @@
   <data name="YourCurrentBoards" xml:space="preserve">
     <value>Your current boards:</value>
   </data>
+  <data name="CupProgramming" xml:space="preserve">
+    <value>Cup Programming</value>
+  </data>
+  <data name="EditPrediction" xml:space="preserve">
+    <value>Edit prediction</value>
+  </data>
+  <data name="ErrorSavingPredictionMessage" xml:space="preserve">
+    <value>An error has occurred, please try again.</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="LocalGoalsValidation" xml:space="preserve">
+    <value>You must enter local goals</value>
+  </data>
+  <data name="MyPrediction" xml:space="preserve">
+    <value>My prediction</value>
+  </data>
+  <data name="PastMatches" xml:space="preserve">
+    <value>Past Matches</value>
+  </data>
+  <data name="PendingMatches" xml:space="preserve">
+    <value>Pending Matches</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="SavePredictions" xml:space="preserve">
+    <value>Save prediction</value>
+  </data>
+  <data name="SelectBoardValidation" xml:space="preserve">
+    <value>You must select a board.</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="VisitorGoalsValidation" xml:space="preserve">
+    <value>You must enter visitor goals</value>
+  </data>
 </root>

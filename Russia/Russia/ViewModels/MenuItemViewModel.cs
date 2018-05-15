@@ -38,11 +38,11 @@
                 Application.Current.MainPage = new NavigationPage(
                     new LoginPage());
             }
-            //else if (this.PageName == "MyProfilePage")
-            //{
-            //    MainViewModel.GetInstance().MyProfile = new MyProfileViewModel();
-            //    App.Navigator.PushAsync(new MyProfilePage());
-            //}
+            else if (this.PageName == "MyProfilePage")
+            {
+                MainViewModel.GetInstance().MyProfile = new MyProfileViewModel();
+                App.Navigator.PushAsync(new MyProfilePage());
+            }
         }
         #endregion
     }

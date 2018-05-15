@@ -330,4 +330,43 @@
   <data name="YourCurrentBoards" xml:space="preserve">
     <value>Sus cartones actuales:</value>
   </data>
+  <data name="CupProgramming" xml:space="preserve">
+    <value>Programación de la Copa</value>
+  </data>
+  <data name="EditPrediction" xml:space="preserve">
+    <value>Editar predicción</value>
+  </data>
+  <data name="ErrorSavingPredictionMessage" xml:space="preserve">
+    <value>Ocurrió un error. Por favor inténtelo de nuevo.</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="LocalGoalsValidation" xml:space="preserve">
+    <value>Debes ingresar goles del local.</value>
+  </data>
+  <data name="MyPrediction" xml:space="preserve">
+    <value>Mi predicción:</value>
+  </data>
+  <data name="PastMatches" xml:space="preserve">
+    <value>Partidos Jugados</value>
+  </data>
+  <data name="PendingMatches" xml:space="preserve">
+    <value>Partidos Pendientes</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Puntos</value>
+  </data>
+  <data name="SavePredictions" xml:space="preserve">
+    <value>Guardar predicción</value>
+  </data>
+  <data name="SelectBoardValidation" xml:space="preserve">
+    <value>Debe seleccionar un cartón.</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="VisitorGoalsValidation" xml:space="preserve">
+    <value>Debes ingresar goles del visitante.</value>
+  </data>
 </root>
