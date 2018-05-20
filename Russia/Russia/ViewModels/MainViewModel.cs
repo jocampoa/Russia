@@ -4,6 +4,8 @@
     using System.Collections.ObjectModel;
     using Helpers;
     using Models;
+    using Xamarin.Forms;
+    using Interfaces;
 
     public class MainViewModel : BaseViewModel
     {
@@ -81,6 +83,12 @@
         #endregion
 
         #region Methods
+        //public void RegisterDevice()
+        //{
+        //    var register = DependencyService.Get<IRegisterDevice>();
+        //    register.RegisterDevice();
+        //}
+
         private void LoadMenu()
         {
             this.Menus = new ObservableCollection<MenuItemViewModel>();

@@ -31,6 +31,7 @@
                     var mainViewModel = MainViewModel.GetInstance();
                     mainViewModel.Token = token;
                     mainViewModel.User = user;
+                    //mainViewModel.RegisterDevice();
                     mainViewModel.Matches = new MatchesViewModel();
                     Application.Current.MainPage = new MasterPage();
                 }
@@ -101,6 +102,7 @@
             var mainViewModel = MainViewModel.GetInstance();
             mainViewModel.Token = token;
             mainViewModel.User = userLocal;
+            //mainViewModel.RegisterDevice();
             //mainViewModel.Lands = new LandsViewModel();
             //Application.Current.MainPage = new MasterPage();
             Settings.IsRemembered = "true";

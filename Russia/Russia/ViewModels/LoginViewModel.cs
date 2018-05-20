@@ -167,11 +167,13 @@
             var mainViewModel = MainViewModel.GetInstance();
             mainViewModel.Token = token;
             mainViewModel.User = userLocal;
-
+            
             Settings.IsRemembered = this.IsRemembered.ToString();
 
             this.dataService.DeleteAllAndInsert(userLocal);
             this.dataService.DeleteAllAndInsert(token);
+
+            //mainViewModel.RegisterDevice();
 
             mainViewModel.Matches = new MatchesViewModel();
             Application.Current.MainPage = new MasterPage();
