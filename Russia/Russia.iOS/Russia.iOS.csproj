@@ -195,4 +195,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\Russia2018.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Splash.jpg" />
+  </ItemGroup>
 </Project>
